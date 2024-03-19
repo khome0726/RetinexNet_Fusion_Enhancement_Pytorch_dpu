@@ -1,0 +1,6 @@
+low: 現有模型經由 predict.py 產生的圖將存放於此
+low_attention: 使用 attention map 產生的圖
+low_lowlight_enhance: 針對可見光模型產生的圖
+
+網路原始32_32, dark_mask(k)=5
+

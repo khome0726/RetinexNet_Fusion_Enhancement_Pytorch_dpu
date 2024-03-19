@@ -1,0 +1,5 @@
+ckpts_attention_decom_relight_conv_1：在decomnet，relightnet第一層conv後導入含有 dark_mask 的 attention_map，dark_mask 計算方法為 sigmoid，loss function 為 50% ssim_loss 50% relight_loss
+
+ckpts_attention_decom_relight_conv_all：在decomnet，relightnet每一層conv後導入含有 dark_mask 的 attention_map，dark_mask 計算方法為 sigmoid，loss function 為 50% ssim_loss 50% relight_loss
+
+ckpts_attention_tanh_dark_light_conv_all：在decomnet，relightnet每一層conv後導入含有 dark_enhanced 和 light_suppressed 的分別計算， 計算方法為 tanh，loss function 為 50% ssim_loss 50% relight_loss
